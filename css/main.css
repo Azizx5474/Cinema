@@ -1,0 +1,484 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.main {
+    width: 1440px;
+    height: 817px;
+    background: url(../images/bg.png) no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+body {
+    background: #621402;
+}
+
+.header {
+    width: 1170px;
+    height: 33px;
+    margin: auto;
+    /* margin-left: 135px; */
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    width: 425px;
+    height: 16px;
+}
+
+.header-lists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.login {
+    width: 148px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.main-div {
+    width: 1000px;
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-left: 135px;
+    margin-top: 90px;
+}
+
+.main-text {
+    width: 570px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.main-text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.main-text3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.main-btn {
+    background: transparent;
+    border: transparent;
+}
+
+.main-div2 {
+    width: 251px;
+    height: 27px;
+    margin: auto;
+    margin-left: 135px;
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-movie {
+    width: 100px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.rating {
+    width: 117px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rating-text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.rating-text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.line1 {
+    width: 1170px;
+    margin: auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.5);
+    margin-top: 70px;
+}
+
+.main-div3 {
+    width: 1108px;
+    height: 150px;
+    margin: auto;
+    margin-left: 135px;
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-date {
+    width: 405px;
+    height: 129px;
+}
+
+.main-date2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date-text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.date-box {
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.date-text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.date-text3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.date-text4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.cinema {
+    width: 470px;
+    height: 117px;
+}
+
+.cinema-text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.cinema-select {
+    width: 470px;
+    height: 60px;
+    margin-top: 33px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.select-text, .select-text1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: black;
+}
+
+.cinema-time {
+    width: 108px;
+    height: 117px;
+}
+
+.cinema-time-text1 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+}
+
+.cinema-time-select {
+    width: 108px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    margin-top: 33px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+}
+                                                        /*--------------- SEATS ------------------*/   
+                                                    
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-top: 61px;
+}
+
+.odeum-scheme {
+  background: rgba(36, 36, 36, 0.18);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.odeum-scheme svg {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+}
+.odeum-scheme path:not(.screen-light) {
+  fill: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.odeum-scheme path:not(.screen-light):hover {
+  fill: rgba(255, 255, 255, 0.502);
+}
+.odeum-scheme path.booked,
+.odeum-scheme path.booked:hover {
+  fill: rgba(255, 255, 255, 0.05);
+  cursor: default;
+}
+.odeum-scheme path.active,
+.odeum-scheme path.active:hover {
+  fill: rgb(254, 142, 5);
+}
+
+.active {
+    fill: rgb(254, 142, 5);
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  max-width: 1024px;
+  width: 87%;
+  margin: auto;
+  padding-top: 22px;
+  padding-bottom: 38px;
+}
+.legend-label {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+                                                                    /*--------------- PAYMENT ------------------*/    
+.footer {
+    width: 1170px;
+    height: 94px;
+    margin: 0 auto 100px;
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-text {
+    width: 250px;
+    height: 94px;
+}
+
+.payment-text1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.payment-text2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.payment-btn {
+    width: 254px;
+    height: 69px;
+    background: #FE8E05;
+    border: #FE8E05;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.day_select {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #fe8e05;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    color: #621402;
+}
+
+#payment_button {
+  width: 254px;
+  height: 69px;
+  background: #fe8e05;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 22px;
+  color: white;
+  font-size: 18px;
+}
+.payment_text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+#amount_of_payment {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 61px;
+  color: #ffffff;
+}
+.active {
+  fill: rgb(254, 142, 5);
+}
+#selected_places {
+  color: white;
+  font-size: 20px;
+  width: 215px;
+  height: 36px;
+}
+.day_select {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #fe8e05;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    color: #621402;
+}
